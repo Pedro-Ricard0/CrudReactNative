@@ -18,7 +18,7 @@ const Excluir = ({ navigation }) =>{
               if (results.rowsAffected > 0) {
                 Alert.alert(
                   'Sucesso',
-                  'Usuário Excluído com Sucesso !',
+                  'LIVRO Excluído com Sucesso !',
                   [
                     {
                       text: 'Ok',
