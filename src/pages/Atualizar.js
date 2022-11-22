@@ -49,15 +49,15 @@ const Atualizar = ({ navigation }) => {
         return;
       }
       if (!userName) {
-        alert('Por favor informe o Nome !');
+        alert('Por favor informe o Nome do Livro !');
         return;
       }
       if (!userContact) {
-        alert('Por Favor informe o Telefone !');
+        alert('Por Favor informe o Genero do Livro !');
         return;
       }
       if (!userAddress) {
-        alert('Por Favor informe o endereço !');
+        alert('Por Favor informe o Nome do Autor do livro!');
         return;
       }
   
@@ -70,7 +70,8 @@ const Atualizar = ({ navigation }) => {
             if (results.rowsAffected > 0) {
               Alert.alert(
                 'Sucesso',
-                'Usuário atualizado com sucesso !!',
+                'LIVRO
+ atualizado com sucesso !!',
                 [
                   {
                     text: 'Ok',
