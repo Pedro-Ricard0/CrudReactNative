@@ -22,7 +22,8 @@ const Cadastro = ( {navigation} ) =>{
         return;
       }
       if (!userAddress) {
-        alert('Por favor preencha o endereço !');
+        alert('Por favor preencha o Nome do Autor do Livro
+ !');
         return;
       }
   
